@@ -2,15 +2,13 @@
   "name": "chrome-extension-react-typescript-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --hot --mode development",
-    "buildDev": "webpack",
+    "build": "webpack",
     "watch": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "sivertschou",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -20,6 +18,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^5.0.0",
     "file-loader": "^6.1.1",
     "style-loader": "^2.0.0",
