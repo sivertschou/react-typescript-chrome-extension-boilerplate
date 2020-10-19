@@ -8,15 +8,11 @@ Create a project based on this boilerplate.
 $ npx degit https://github.com/sivertschou/react-typescript-chrome-extension-boilerplate.git <project-name>
 ```
 
-### Installation
-
 Navigate to the project directory and install the dependencies.
 
 ```
 $ npm install
 ```
-
-### Running
 
 To build the extension, and rebuild it when the files are changed, run
 
