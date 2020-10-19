@@ -1,6 +1,6 @@
 {
-  "name": "HALLA",
-  "description": "React Typescript Chrome Extension boilerplate.",
+  "name": "Chrome Extension Boilerplate",
+  "description": "Chrome Extension boilerplate created with React Typescript.",
   "manifest_version": 2,
   "version": "1.0.0",
   "icons": {
