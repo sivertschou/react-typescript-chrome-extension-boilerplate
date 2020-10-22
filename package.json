@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@types/chrome": "0.0.125",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hot-loader": "^4.13.0"
