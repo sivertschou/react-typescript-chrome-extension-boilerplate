@@ -11,6 +11,7 @@
   "author": "sivertschou",
   "license": "ISC",
   "devDependencies": {
+    "@types/chrome": "0.0.125",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
@@ -30,7 +31,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@types/chrome": "0.0.125",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hot-loader": "^4.13.0"
