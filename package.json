@@ -8,7 +8,6 @@
     "start": "webpack --watch"
   },
   "keywords": [],
-  "author": "sivertschou",
   "license": "ISC",
   "devDependencies": {
     "@types/chrome": "0.0.125",
