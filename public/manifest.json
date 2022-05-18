@@ -1,14 +1,14 @@
 {
   "name": "Chrome Extension Boilerplate",
   "description": "Chrome Extension boilerplate created with React Typescript.",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "1.0.0",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png"
@@ -16,10 +16,7 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
